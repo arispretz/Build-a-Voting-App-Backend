@@ -13,7 +13,7 @@ app.use(express.json());
 
 // Middleware
 app.use(cors({
-  origin: 'https://localhost:3000',
+  origin: 'https://build-a-voting-app-frontend-hv2lgr0a6.vercel.app',
   credentials: true
 }));
 
